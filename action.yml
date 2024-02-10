@@ -1,5 +1,8 @@
 name: 'Build and Push Docker Image'
 description: 'Builds a Docker image and pushes it to Docker Hub.'
+branding:
+  icon: 'package' # 或其他适合 Docker 主题的 Feather icon
+  color: 'blue' # 指定蓝色作为图标颜色
 inputs:
   docker_hub_username:
     description: 'Docker Hub username'
